@@ -438,7 +438,7 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #050d18;
+  color: #1f5297;
 }
 
 .resume .resume-item {
@@ -529,13 +529,6 @@ section {
     z-index: 1;
 }
 
-.portfolio corner-logo{
-  width: 90%;
-  background-color: #000000;
-  overflow: hidden;
-    text-align: center;
-}
-
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #1f5297;
 }
@@ -604,6 +597,24 @@ section {
 .portfolio .portfolio-wrap:hover .portfolio-links {
   opacity: 1;
   bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# About Pages
+--------------------------------------------------------------*/
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9*/
+  position: relative;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
 }
 
 /*--------------------------------------------------------------
